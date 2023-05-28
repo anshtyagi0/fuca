@@ -1,0 +1,10 @@
+{
+    "languages": ["english", "hindi"],
+    "translations": {
+        "PONG": {
+            "english": "PONG",
+            "hindi": "पांग"
+        }
+        
+    }
+}
