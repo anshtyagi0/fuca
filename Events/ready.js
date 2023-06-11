@@ -3,7 +3,7 @@ const webhook = require("webhook-discord")
 const { AutoPoster } = require('topgg-autoposter')
 const bhbotlist = require("bhbotlist.js");
 const fetch = require("node-fetch");
-const Hook = new webhook.Webhook("https://discord.com/api/webhooks/1021769006274838599/6ZDbqrHZ2VU7lQbFlDx1SqbrFkke8_VZNS-lzi-FJ2s3a0GeTWjUjMszTFZpadjFBHOR")
+const Hook = new webhook.Webhook("URL")
 
 
 module.exports = async (client) => {
