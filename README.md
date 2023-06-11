@@ -57,7 +57,7 @@ Fuca is pretty much at the end of development now, it will only be updated for t
 
 ## 📖 License
 
-Released under the [MIT](https://github.com/Spiderjockey02/Discord-Bot/blob/main/LICENSE) license.
+Released under the [MIT](https://github.com/anshtyagi0/fuca/blob/main/LICENSE) license.
 
 ## 📜 Credits
 * **[{Ansh}#0607](https://github.com/anshtyagi0)**
