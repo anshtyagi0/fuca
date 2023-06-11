@@ -39,8 +39,8 @@ app.get("/privacypolicy", async (req, res) => {
 app.get('/commands', (req, res) => {
     let commandsname = [];
     let commandsdescription = {};
-    fs.readdirSync("/home/ansh/SlashCommands/").forEach((dir) => {
-        const slashCommandFile = fs.readdirSync(`/home/ansh/SlashCommands/${dir}/`).filter((files) => files.endsWith(".js"));
+    fs.readdirSync("/home/user/SlashCommands/").forEach((dir) => {
+        const slashCommandFile = fs.readdirSync(`/home/user/SlashCommands/${dir}/`).filter((files) => files.endsWith(".js"));
         let slashCommand;
         for (const file of slashCommandFile) {
             slashCommand = require(`/home/ansh/SlashCommands/${dir}/${file}`);
