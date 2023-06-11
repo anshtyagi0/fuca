@@ -1,7 +1,7 @@
 const usersdata = require("../../Detabase/term.js")
 const { Client, CommandInteraction, EmbedBuilder, ActionRowBuilder, ButtonBuilder, MessageCollector, ApplicationCommandOptionType, ButtonStyle } = require('discord.js');
 const webhook = require('webhook-discord')
-const Hook = new webhook.Webhook('https://discord.com/api/webhooks/973260474374311947/g8YWusZyMUyLL48Ar2hBvCzbWnxvRXPEJo31huigEIhokNFbf7NSTPjxWbzQK4nhjGA7');
+const Hook = new webhook.Webhook('URL');
 
 module.exports = {
     name: 'update',

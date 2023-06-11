@@ -41,7 +41,7 @@ module.exports = {
             return await interaction.editReply(`<@${user.id}>, You got a thanks from <@${interaction.member.user.id}>`)
         } catch (err) {
             const webhook = require("webhook-discord")
-            const Hook = new webhook.Webhook("https://discord.com/api/webhooks/973259740228501514/1dJPhLSaqMzLPzlrnn_MYu4I0e1vAhjUqWFJOgfrcO1h_XeqL1U9WgxMxF2YL46UL6gI")
+            const Hook = new webhook.Webhook("url")
 
 
             const msg = new webhook.MessageBuilder()

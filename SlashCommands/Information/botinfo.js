@@ -61,7 +61,7 @@ module.exports = {
         } catch (err) {
             await interaction.editReply(`Something went wrong! Here is error: ${err}`)
             const webhook = require("webhook-discord")
-            const Hook = new webhook.Webhook("https://discord.com/api/webhooks/973259740228501514/1dJPhLSaqMzLPzlrnn_MYu4I0e1vAhjUqWFJOgfrcO1h_XeqL1U9WgxMxF2YL46UL6gI")
+            const Hook = new webhook.Webhook("url")
 
 
             const msg = new webhook.MessageBuilder()
