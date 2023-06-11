@@ -31,7 +31,7 @@ module.exports = async (client) => {
         }
 
         const createEmbed = async (videoTitle, videoUrl, imgurl, channelname, channelid, desc, videoDate, live) => {
-            const response = await axios.get(`https://fucaytapi.fluiddev.xyz/YouTube-operational-API/noKey/channels?part=snippet&id=${channelid}`);
+            const response = await axios.get(`https://yt.lemnoslife.com/noKey/channels?part=snippet&id=${channelid}`);
             const channel = response.data.items[0];
             if (live === "none") {
                 const embed = new Discord.EmbedBuilder()
@@ -76,7 +76,7 @@ module.exports = async (client) => {
         const Video = mongoose.model("Video", videoSchema);
 
         const getRecentUploads = async (channelID) => {
-            const apiURL = `https://fucaytapi.fluiddev.xyz/YouTube-operational-API/noKey/search?part=snippet&channelId=${channelID}&maxResults=1&order=date&type=video`;
+            const apiURL = `https://yt.lemnoslife.com/noKey/search?part=snippet&channelId=${channelID}&maxResults=1&order=date&type=video`;
             try {
                 const response = await axios.get(apiURL);
                 return response.data.items;
@@ -154,7 +154,7 @@ module.exports = async (client) => {
         setInterval(main, 300000)
     } catch (err) {
         const webhook = require("webhook-discord")
-        const Hook = new webhook.Webhook("https://discord.com/api/webhooks/973259740228501514/1dJPhLSaqMzLPzlrnn_MYu4I0e1vAhjUqWFJOgfrcO1h_XeqL1U9WgxMxF2YL46UL6gI")
+        const Hook = new webhook.Webhook("url")
 
 
         const msg = new webhook.MessageBuilder()

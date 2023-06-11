@@ -1,7 +1,7 @@
 const { Collection, EmbedBuilder, Client, GatewayIntentBits } = require("discord.js");
 const mongoose = require("mongoose");
 const webhook = require("webhook-discord")
-const Hook = new webhook.Webhook("https://discord.com/api/webhooks/1021769006274838599/6ZDbqrHZ2VU7lQbFlDx1SqbrFkke8_VZNS-lzi-FJ2s3a0GeTWjUjMszTFZpadjFBHOR")
+const Hook = new webhook.Webhook("URL")
 
 
 class Fuca extends Client {
