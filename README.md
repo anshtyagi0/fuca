@@ -12,7 +12,7 @@
  [![Discord](https://img.shields.io/discord/973252510250827877?label=Discord&logo=discord&style=plastic)](https://discord.gg/v8YSWmF88v)
 [![CodeFactor](https://www.codefactor.io/repository/github/anshtyagi0/fuca/badge/main)](https://www.codefactor.io/repository/github/anshtyagi0/fuca/badge/overview/main)
 [![Website](https://img.shields.io/website?down_message=offline&label=Website&style=plastic&up_color=green&up_message=online&url=https%3A%2F%2Ffuca.fluiddev.xyz)](https://fuca.fluiddev.xyz)
-![Version](https://img.shields.io/github/v/release/anshtyagi0/fuca?style=plastic)
+![Version](https://img.shields.io/github/v/tag/anshtyagi0/fuca)
 
 </div>
 
