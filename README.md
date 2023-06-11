@@ -19,7 +19,7 @@
 <p align="center">
   <a href="#about">About</a>
   •
-  <a href="">Installation</a>
+  <a href="https://github.com/anshtyagi0/fuca/wiki/Installation">Installation</a>
   •
   <a href="#license">License</a>
   •
